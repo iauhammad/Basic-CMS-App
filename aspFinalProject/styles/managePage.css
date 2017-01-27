@@ -1,0 +1,116 @@
+﻿/* ========================================================== */
+/* Summary      : Styling for template ADD/MODIFY a page      */
+/* Created by   : Mohammad Irfaan Auhammad                    */
+/* Created on   : Dec 05, 2016                                */
+/* Comments     : HTTP5101: CMS Final Project                 */
+/* ========================================================== */
+
+/* HTML Main Elements */
+/* ------------------ */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    max-width: 980px;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0 16px;
+    background-color: beige;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/* Form Designs */
+/* ------------ */
+h1 {
+  color: #039;
+  background: transparent;
+  margin-bottom: 0.5ex;
+
+}
+
+.formLabel {
+    display: inline-block;
+    color: darkred;
+    padding: 5px;
+    font-size: 1.25em;
+}
+
+.formInput, select {
+    background: #ffffff;
+    font-size: 1.125em;
+}
+
+#txt_page_title, #txt_page_content {
+    width: 100%;
+}
+
+.formInput, select {
+    padding: 10px 12px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+.errMsg {
+    font-style: italic;
+    color: orangered;
+    font-size: 0.875em;
+}
+
+
+/* Buttons */
+/* ------- */
+#buttons-container {
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+.actionBtn {
+    border-radius: 3px;
+    padding: 10px 12px;
+    background: #ffb606;
+    color: #2a2a2a;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    width: 150px;
+}
+
+#btn_add:disabled, #btn_modify:disabled {
+    color: white;
+    cursor: not-allowed;
+    background: rgba(128, 128, 128, 0.4);
+}
+
+#btn_add:hover:enabled,
+#btn_modify:hover:enabled, #btn_back:hover {
+    background: #2a2a2a;
+    color: #fff;
+}
+
+
+/* Operation status label and link */
+/* ------------------------------- */
+#lbl_operation_status {
+    margin-right: 1em;
+}
+
+#linkHome {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.5s
+}
+
+#linkHome:hover {
+    color: #ffb606;
+}

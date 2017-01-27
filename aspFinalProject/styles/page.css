@@ -1,0 +1,43 @@
+﻿/* ====================================================================== */
+/* Summary      : Styling for Template to display primary/secondary pages */
+/* Created by   : Mohammad Irfaan Auhammad                                */
+/* Created on   : Dec 05, 2016                                            */
+/* Comments     : HTTP5101: CMS Final Project                             */
+/* ====================================================================== */
+
+/* HTML Main Elements */
+/* ------------------ */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    position: relative;
+    max-width: 980px;
+    min-height: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 0 18px;
+    background-color: aliceblue;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#html_title {
+    text-align: center;
+    color: darkslateblue;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+#html_footer {
+    position: absolute;
+    bottom: 0;
+    color: #1C1D24;
+    padding: 10px 5px;
+    font-size: 14px;
+}
